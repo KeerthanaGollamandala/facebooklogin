@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Facebook login page </title>
+    <style>
+       
+          body {
+          margin-left: 200px;
+        }
+        header {
+          background-color: darkblue;
+          color: white;
+          height: 80px;
+          width: 90%;
+        }
+        .h1 {
+          font-size: 30px;
+          font-family: arial;
+          font-weight: bold;
+          padding-top: 25px;
+          padding-left: 180px;
+        }
+        .form {
+          display: flex;
+          padding-left: 600px;
+        }
+        .emailform {
+          margin-right: 10px;
+          margin-top: -70px;
+        }
+        .passwordform {
+          margin-top: -69px;
+        }
+        .forget {
+          margin-top: -1px;
+          padding-top: 2px;
+        }
+        .buttonlogin {
+          position: absolute;
+          margin-top: -52px;
+          margin-left: 10px;
+        } 
+        section {
+          display: flex;
+          background-color: rgb(241, 239, 239);
+          width: 90%;
+        } 
+        .form1 {
+          display: grid;
+          grid-template-columns: columns;
+          margin-left: 150px;
+          padding: 5px;
+        }
+        .facebook-information pre {
+          padding-top: 30px;
+          font-size: 15px;
+          font-family: arial;
+          color: black;
+        }
+        .signup {
+          font-size: 30px;
+          font-family: arial;
+        }
+        .conent1 {
+          margin-top: -20px;
+        }
+        .name {
+          width: 150px;
+        }
+        .radioform1 {
+        display:grid;
+        grid-template-columns: 6fr 6fr;
+        margin-top:-19px;
+        margin-left:-35px;
+       }
+       .radioform1 span {
+        margin-left:-105px;
+       } 
+       .pre {
+        margin-left:-115px;
+  
+       }
+       .signup1 {
+        background-color: green;
+        width:170px;
+        height:30px;
+        font-size:18px;
+        color:white;
+        margin-bottom:5px;
+       }
+       .selection{
+        display:flex;
+       }
+       .selection div{
+        margin-right:10px;
+        margin-top:10px;
+  
+       }
+       .months {
+        width:30%;
+       }
+       .text-select pre {
+        margin-left:-100px;
+        margin-top:-2px;
+        font-size:12px;
+        font-family: arial;
+       }
+       .footer1 {
+        display:flex;
+       }
+       .footer1 li {
+        margin-right:10px;
+        list-style: none;
+       }
+       .footer2 {
+        display:flex;
+       }
+       .footer2 li {
+        margin-right:10px;
+        list-style: none;
+  
+       }
+       footer {
+    margin-left:100px;
+  }
+  .hr {
+    width:80%;
+    margin-left:30px;
+    
+  }
+  input[type="email"], 
+input[type="password"] {
+    padding: 5px;
+    margin: 3px 0; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+.nameform input[type="text"] {
+    padding: 5px;  
+    margin: 3px 0; 
+    width: 50%;    
+    box-sizing: border-box; 
+    
+}
+.nameform {
+    display: flex;             
+    gap: 10px;                 
+    padding: 10px;             
+}
+.image {
+    padding-left: 30px;   
+    padding-right: 30px;  
+    padding-top: 20px;    
+    padding-bottom: 20px; 
+}
+
+
+
+  
+                     
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="h1"> facebook </h1>
+         <form class="form">
+            <div class="emailform">
+             <label for="text"> Email or Phone </label><br>
+             <input type="text" name="email or phone number"/><br>
+             <input type="checkbox"/><span> keep me loggin </span>
+            </div>
+            <div class="passwordform">
+                <label for="text"> password </label><br>
+                <input type="text" name="password"/>
+                <p class="forget"> Forget your Password?</p>
+            </div>
+            <div>
+                <button class="buttonlogin"> Log In </button>
+             </div>
+        </form>
+    </header>
+    <section>
+        <div class="facebook-information">
+            <pre>
+                Facebook helps you to connect and share with
+                 the people in your life
+                 </pre>
+                 <img src="facebook-game.jpg" height="300px" width="400px" class="image" />
+                </div>
+        <div>
+            <form class="form1">
+             <h1 class="singup"> Sign Up </h1>
+             <p class="content1"> It's free and always will be.</p>
+             <div class="nameform" style="padding: 15px;">
+                <input type="text" name="firstname" placeholder="FirstName" /> 
+                <input type="text" name="firstname" placeholder="LastName"/>
+
+
+             </div>
+             
+             <input type="email" name="email" placeholder="Your Email"/>
+<input type="email" name="email" placeholder="Re-enter Email"/>
+<input type="password" name="password" placeholder="New Password"/>
+
+             <div class="selection">
+                <div class="month-select">
+                    <select name="month">
+                        <option>month</option>
+                  <option>January</option>
+                  <option>February</option>
+                  <option>March</option>
+                  <option>April</option>
+                  <option>May</option>
+                  <option>June</option>
+                  <option>July</option>
+                  <option>August</option>
+                  <option>September</option>
+                  <option>October</option>
+                  <option>November</option>
+                  <option>December</option>
+                  </select>
+                </div>
+                <div class="day-select">
+                    <select name="Day">
+                        <option>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+
+                </div>
+                <div class="month-select">
+                    <input type="month" class="months" name="month">
+                </div>
+                <div class="text-select">
+                    <pre> why do i need to provided my birthday?</pre>
+                </div>
+             </div>
+           
+             <div class="radio">
+             <div class="radioform">
+                <input type="radio" name="male" id="button"/>
+                <span> Male </span>
+                <input type="radio" name="female" id="button"/>
+                <span> Female </span>
+
+             </div>
+             <pre class="pre">
+                By doing Sign up, you agree to our Teams and that you have
+                read our Data use policy,including our cookie use.</pre>
+                <button class="signup1"> Sign UP </button>
+                <hr>
+                <p>create a page for a celebrity, band or bussiness.</p>
+             </div>
+            </form>
+            </div>
+          </section>
+    <footer>
+           <div class="footer">
+            <ul class="footer1">
+                <p>English (US)  का हिन्दी पैौनाची काठी  og Español Português  (Brasil)  Français (France)</p>
+              </ul>
+              <hr class="hr">
+              <ul class="footer2">
+                <p>Facebook © 2013 English (US) Mobile Find Friends Badges People Pages Places Apps Games Music About Create an Ad Create a Page Developers Careers Privacy Cookies</p>        
+                
+              
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
